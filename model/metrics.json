@@ -1,0 +1,36 @@
+{
+  "logistic_regression": {
+    "name": "Logistic Regression",
+    "accuracy": 0.8666666666666667,
+    "precision": 0.86682846884687,
+    "recall": 0.8666666666666667,
+    "f1": 0.8665856734504346
+  },
+  "random_forest": {
+    "name": "Random Forest",
+    "accuracy": 0.9147727272727273,
+    "precision": 0.9157052093731436,
+    "recall": 0.9147727272727273,
+    "f1": 0.9149839829894164
+  },
+  "feature_importance": {
+    "Temperature": 0.16977285972400097,
+    "Humidity": 0.03909888044188467,
+    "Wind Speed": 0.025667943377121166,
+    "Precipitation (%)": 0.10387628335701442,
+    "Atmospheric Pressure": 0.09003225826010124,
+    "UV Index": 0.1245807702145771,
+    "Visibility (km)": 0.13491495565633682,
+    "Cloud_Cover_enc": 0.08100600165416237,
+    "Season_enc": 0.03856319430453845,
+    "Location_enc": 0.010812530519644386,
+    "Humidity_x_Precip": 0.0971877585118587,
+    "Temp_UV_ratio": 0.08448656397875977
+  },
+  "classes": [
+    "Cloudy",
+    "Rainy",
+    "Snowy",
+    "Sunny"
+  ]
+}
